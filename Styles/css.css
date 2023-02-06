@@ -39,7 +39,7 @@ header nav ul li a{
     text-decoration: none;
     color: #FFFFFF;
 }
-header nav il li:first-of-type a{
+header nav li:first-of-type a{
     font-size: 13px;
 }
 header nav li:last-of-type a{
@@ -54,4 +54,15 @@ header nav li:last-of-type a{
     background-image: url("../images/back_image.jpg");
     background-size: cover;
     height: calc(100vh - 83px);
+}
+.communication_section{
+    background-color: black;
+}
+section div h3 a{
+    background: #FFFFFF;
+    border-radius: 14px;
+    padding: 11px 20px;
+    color: black;
+    font-size: 16px;
+    letter-spacing: 0.4px;
 }
