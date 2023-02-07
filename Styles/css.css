@@ -53,7 +53,7 @@ header nav li:last-of-type a{
 .main_banner{
     background-image: url("../images/back_image.jpg");
     background-size: cover;
-    height: calc(100vh - 83px);
+    height: calc(100vh - 84px);
 }
 .communication_section{
     background-color: black;
@@ -65,4 +65,112 @@ section div h3 a{
     color: black;
     font-size: 16px;
     letter-spacing: 0.4px;
+}
+.main_section{
+    text-align: center;
+
+}
+.occupation_txt{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* identical to box height, or 143% */
+
+    text-align: center;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    padding-top: 60vh;
+    padding-bottom: 1px;
+}
+section div h1{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59px;
+    /* identical to box height, or 110% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.discription{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    /* or 143% */
+    text-align: center;
+    color: #C0C0C0;
+max-width: 580px;
+    margin: auto;
+    padding-top: 16px;
+    padding-bottom: 71px;
+}
+.n_help_cont{
+    max-width: 571px;
+    margin: auto;
+    text-align: center;
+    padding-top: 113px;
+    padding-bottom: 108px;
+}
+.secondary_title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    /* identical to box height, or 105% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+}
+.on_bt_txt{
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 400;
+font-size: 24px;
+line-height: 30px;
+/* identical to box height, or 125% */
+
+text-align: center;
+
+color: #C0C0C0;
+    padding-top:15px ;
+    padding-bottom: 22px;
+}
+.get_it_btn{
+    display:inline-flex;
+   align-items: center;
+    background: #FFFFFF;
+    font-family: 'Poppins';
+    font-style: normal;
+justify-content: space-between;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    /* identical to box height, or 125% */
+
+    letter-spacing: 0.4px;
+   color: #000000;
+    text-decoration: none;
+    border-radius: 14px;
+padding-right:10px ;
+   flex-wrap: unset;
+}
+.get_it_btn:before{
+    content: "";
+    display: inline;
+
+    background-color: black;
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+margin: 4px 3px 4px 3px;
+    justify-content: space-between;
 }
