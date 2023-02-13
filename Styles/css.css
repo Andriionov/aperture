@@ -437,41 +437,22 @@ position: relative;
     margin-right: 60px;
     margin-left: 60px;
 }
-.past_client_section{
-    background-color: black;
-    max-height: 500px;
-}
-.past_client_section ul{
-    display: flex;
-    justify-content: center;
-}
-.past_client_section ul li{
-    display: inline-block;
-    padding: 0 54px 0 54px;
 
+
+
+
+
+.past_client_section{
+    padding-top: 120px;
+    padding-bottom: 100px;
+background-color: black;
 }
-.past_client_section ul li:before{
-    content: "";
+.companies{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-.past_client_section ul li:nth-child(1){
-    padding-bottom: 164px;
-    padding-top: 20px;
-}
-.past_client_section ul li:nth-child(2){
-    padding-bottom: 140px;
-}
-.past_client_section ul li:nth-child(3){
-    padding-bottom: 169px;
-    padding-top: 26px;
-}
-.past_client_section ul li:nth-child(4){
-    padding-bottom: 169px;
-    padding-top: 16px;
-}
-.past_client_section ul li:nth-child(5){
-    padding-bottom: 163px;
-    padding-top: 13px;
-}
+
 .past_client_section h2{
     font-family: 'Poppins';
     font-style: normal;
@@ -480,7 +461,7 @@ position: relative;
     line-height: 42px;
     text-align: center;
     color: #FFFFFF;
-    padding: 113px 0 15px;
+padding-bottom: 15px;
 }
 .past_client_section h4{
     font-family: 'Poppins';
@@ -491,7 +472,7 @@ position: relative;
     /* identical to box height, or 125% */
     text-align: center;
     color: #C0C0C0;
-padding-bottom: 111px;
+padding-bottom: 82px;
 }
 footer{
     background-color: black;
